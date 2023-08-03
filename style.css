@@ -34,31 +34,20 @@ h1 {
   background-image: url("images/tom.png");
   background-size: cover;
   color: white;
+  -webkit-text-stroke: 1px #000000;
+  font-weight: bold;
   font-family: cursive;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   text-transform: capitalize;
+  
 }
 
 .btn:hover {
     color: pink;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
 }
 
 .btn:active {
     background-size: 105%;
 }
-
-@media  (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
-
-  h1 {
-    font-size: 30px;
-  }
-  .btn {
-    padding: 20px 30px;
-    font-size: 20px;
-  }
-}
-
